@@ -1,0 +1,36 @@
+.todo {
+    padding: 5px 10px;
+    background-color: #f2f2f2;
+    font-weight: 500;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.todo p {
+    margin: 0;
+    word-wrap: break-word;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+}
+.todo>p::first-letter {
+    text-transform: uppercase !important;
+}
+
+.with {
+    text-decoration-line: line-through !important;
+}
+.fa-trash {
+    color: #d60000;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.trash{
+    text-decoration-line: line-through;
+    text-decoration-thickness: 2px !important;
+    text-decoration-color: red !important;
+}
